@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="background"></div>
+    <div id="container">
+        <div id="info">
+            <form id="info-form"><input type="text"placeholder="Enter city" id="info-input">
+            <button id="info-submit"><i class="fa-solid fa-magnifying-glass"></i></button></form>
+        </div>
+       <div id="default">
+  <img src="images/sun.png" alt="image" class="default-icon" />
+  <p class="default-text">Enter a city to get real-time weather updates</p>
+</div>
+       <div id="loading">
+         <img src="images/loading.png" alt="image" id="loading-img"><p class="loading-text">Fetching weather data...</p>
+</div>
+        <div id="output" style="display: none;">
+          <div id="city"><div id="city-name">Jaipur</div> <div id="city-weather"><img src="images/sun.png" alt="image" id="city-weather-img"></div></div>
+          <div id="temp"><div id="temp-value-container"><div class="temp-value">26<sup></sup></div><div class="temp-value"><sup>o</sup>C</div></div><div class="temp-info-container"><img src="images/thermometer.png" alt="image" class="output-img"><div class="temp-info-value" id="feels">Feels like  - 26 <sup> </sup></div><div class="temp-info-value"><sup>o</sup>C</div></div></div>
+           <div class="output-info1"><div class="output-info-text"><img src="images/humidity.png" alt="image" class="output-img">Humidity - </div><div class="output-text-value" id="humidity">56%</div></div>
+           <div class="output-info1"><div class="output-info-text"><img src="images/windy.png" alt="image" class="output-img">Wind - </div> <div class="output-text-value" id="wind">345345 </div></div>
+          <div class="output-info"><img src="images/sunrise.png" alt="image"class="output-img"><div class="output-info-text" id="sunrise">sunrise - 7:00 am</div><img src="images/sunsets.png" alt="image" class="output-img"><div class="output-info-text" id="sunset">Sunset - 6:00 pm</div></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
