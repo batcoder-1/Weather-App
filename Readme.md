@@ -8,6 +8,7 @@ A beautiful and responsive web application that provides real-time weather updat
 ![App Preview](preview.png)
 
 [Click to watch video demo](demo.mp4)
+
 ---
 
 ## 📸 Features
@@ -33,8 +34,8 @@ A beautiful and responsive web application that provides real-time weather updat
 ## 🌦️ Weather App Setup
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/batcoder-1/weather-app.git
+
+   git clone https://github.com/batcoder-1/Weather-App.git
    cd weather-app
 
 2. Get your own free API key from [OpenWeatherMap API](https://openweathermap.org/api) and [TimeZoneDB API](https://timezonedb.com/api)
@@ -42,9 +43,7 @@ A beautiful and responsive web application that provides real-time weather updat
 3. In the script.js file, replace:
 
 const apiKey = "YOUR_API_KEY_HERE";
-
 with your actual API key:
-
 const apiKey = "your_actual_key";
 
 4. Run the app locally
