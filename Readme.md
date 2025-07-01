@@ -3,6 +3,12 @@
 A beautiful and responsive web application that provides real-time weather updates based on the city name entered by the user. The app uses OpenWeather and TimeZoneDB APIs to display temperature, weather conditions, sunrise/sunset time, humidity, and wind speed.
 
 ---
+## 🌤️ Weather App
+
+![App Preview](preview.png)
+
+[Click to watch video demo](demo.mp4)
+---
 
 ## 📸 Features
 
