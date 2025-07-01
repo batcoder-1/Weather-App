@@ -4,13 +4,6 @@ A beautiful and responsive web application that provides real-time weather updat
 
 ---
 
-## 🔗 Live Demo
-
-👉 [Click here to view the live project](https://batcoder-1.github.io/Weather-App/)
-
-
----
-
 ## 📸 Features
 
 - 🌍 Search weather for any city worldwide
@@ -31,6 +24,27 @@ A beautiful and responsive web application that provides real-time weather updat
   - [TimeZoneDB API](https://timezonedb.com/api)
 
 ---
+## 🌦️ Weather App Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/batcoder-1/weather-app.git
+   cd weather-app
+
+2. Get your own free API key from [OpenWeatherMap API](https://openweathermap.org/api) and [TimeZoneDB API](https://timezonedb.com/api)
+
+3. In the script.js file, replace:
+
+const apiKey = "YOUR_API_KEY_HERE";
+
+with your actual API key:
+
+const apiKey = "your_actual_key";
+
+4. Run the app locally
+
+--- 
+
 📌 Notes
 All images are stored in the images/ folder.
 
@@ -38,8 +52,12 @@ The API calls are made using fetch, and results are displayed only after full re
 
 The app handles invalid city names or no internet connection gracefully.
 
+---
+
 📃 License
 This project is open source and available under the MIT License.
+
+---
 
 🙌 Acknowledgements
 Icons from Flaticon

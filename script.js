@@ -1,5 +1,5 @@
-let apikey="8b119617a6e67b3337df31ded695669d";
-let apikey1="8PGEEXPMKQZE";
+let apikey="YOUR_API_KEY_HERE";
+let apikey1="YOUR_API_KEY_HERE";
 const city=document.querySelector("#info-input");
 const submit=document.querySelector("#info-submit");
 
